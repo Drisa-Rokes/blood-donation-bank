@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>File</title>
+	<link rel="stylesheet" href="style.css">
+	<style >
+		.filelabel{
+			color: black;
+		}
+		.filebtn{
+			background-color: blue;
+			width: 10%;
+			padding:1%;
+			margin: 2%;
+		}
+	</style>
+</head>
+<body>
+<div>
+<ul style="background-color: gray;">
+  <li><a >File</a></li>
+  <li><a  id="about"  >View </a></li>
+  <li><a >Edit</a></li>
+  <li style="float:right"><a   href="index.html" style="background-color: maroon;">Log Out</a></li>
+</ul>
+</div>
+<div>
+	<form class="file">
+	<p>  1. Do you have any disease ?</p>
+	
+	<input type="radio" id="disease" name="disease" value="YES"> <label class="filelabel">YES</label><br>
+	
+	<input type="radio" id="nodisease" name="nodisease" value="No"><label class="filelabel">NO  </label><br>
+
+	<p>  2. Do you have donate before ?</p>
+	
+	<input type="radio" id="donate" name="donate" value="YES"> <label class="filelabel">YES</label><br>
+	
+	<input type="radio" id="nodonate" name="nodonate" value="No"><label class="filelabel">NO  </label><br>
+
+	<p>  3. Do you have any blood Pressure Problem ?</p>
+	
+	<input type="radio" id="bp" name="bp" value="YES"> <label class="filelabel">YES</label><br>
+	
+	<input type="radio" id="nobp" name="nobp" value="No"><label class="filelabel">NO  </label><br><br><br><br>
+
+	<button id="filesubbtn" class="filebtn" onclick="alert('thanks to donate your blood.')">Submit</button> <button id="fileeditbtn" class="filebtn">Edit</button>
+	</form>
+
+</div>
+</body>
+</html>

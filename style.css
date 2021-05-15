@@ -1,0 +1,107 @@
+#top{
+  background-color: maroon;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*.active {
+  background-color: maroon;
+}*/
+#describe{
+  background-color: maroon;
+  height:220px;
+  width: 500px;
+  color: white;
+  text-align: center;
+  margin: 3% 40%  0 30%;
+}
+
+#moreabout{
+  margin-left: 60%;
+  background-color: red;
+  border-color: red;
+}
+
+
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        padding: 40px;  
+        background: maroon;  
+        border-radius: 15px ;
+        align-content: center;  
+          
+}  
+
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+#a_forgot{  
+    float: left;  
+    background-color: white;
+
+    
+} 
+#a_pass{
+    float: right;
+    background-color: white;
+}

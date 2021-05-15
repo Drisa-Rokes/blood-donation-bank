@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page </title>
+	<!-- Bootstrap link for  CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    .usertype{
+        background-color: tomato;
+        border-radius: 10px;
+        margin-left: 43%;
+
+    }
+</style>
+
+</head>
+<body>
+	
+<h1 id="top"> BLOOD DONANTION </h1>
+<div>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a  id="about" href="about.html" >About </a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li style="float:right"><a class="active" href="login.html" style="background-color: maroon;">Login</a></li>
+</ul>
+</div>
+<br><br>
+
+<div >
+    <button  type="submit" class="usertype"   onclick="myFunction()">Sign In as Patient</button><br><br>
+    <button  type="submit" class="usertype" onclick="myFunction()">Sign In as Doctor</button><br><br>
+    <button  type="submit" class="usertype" onclick="myFunction()">Sign In as Laborator</button><br><br>
+</div>
+<div class="login" id="formlogin">    
+    <form id="login" method="get" >    
+        <label><b>User Name</b></label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password</b></label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br> 
+        <button id="log"  value="Open Window" onclick="openWin()">Log In </button>   
+            <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+         <a  id="a_forgot" href="#">Forgot</a> <a  id="a_pass" href="#">Password</a>    
+    </form>     
+</div>
+</body>
+<script type="text/javascript" src="javascript.js">
+</script>
+</html>
